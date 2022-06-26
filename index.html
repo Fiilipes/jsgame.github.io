@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Filip Jarolím">
+    <meta name="keywords" content="javascript js game">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS game</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/queries.css">
+    <link rel="shortcut icon" href="IMAGES/javascript_logo.png">
+
+    
+</head>
+<body>
+    <div class="mainSec">
+        <header>
+            <ul>
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#howtoplay">
+                        How to play
+                    </a>
+                </li>
+                <li>
+                    <a href="#theGame">
+                        The game
+                    </a>
+                </li>
+                <li>
+                    <a href="#footer">
+                        Contacts
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <h1><span class="highlightedJS">JavaScript </span>game</h1>
+    </div>
+    <section id="about">
+        <h2>
+            About
+        </h2>
+        <p>
+            Hey!<br>
+            This website serves as a presentation of my new javascript game. I hope, you will like it.
+        </p>
+    </section>
+    <section id="howtoplay">
+        <h2>
+            How to play
+        </h2>
+        <p>
+            All you have to do is use your character to collect variously distributed items on the playing field. Your task is to collect as many items as possible in a time limit of 60 seconds. You can control your character with the arrow keys or the wasd keys. <br><span>Well, that's all. Have fun!</span>
+        </p>
+    </section>
+    <section id="theGame">
+        <h2>
+            The Game
+        </h2>
+        <div class="scoreCounter">
+            <ul>
+                <li>
+                    Score:<span class="value">0</span>
+                </li>
+                <li>
+                    Time left:<span class="value counter" id="counter">60 Sec</span>
+                </li>
+            </ul>
+        </div>
+        <div class="mainDiv" id="mainDiv">
+            <div class="startButton">
+                <h2>start</h2>
+            </div>
+            <img src="IMAGES/pic1.png" alt="character" id="character">
+            <img src="IMAGES/javascript_logo.png" alt="object" id="object">
+            <div class="end">
+                <h2>Congratulations!</h2>
+                <p></p>
+                <h3>Play again</h3>
+            </div>
+        </div>  
+    </section>
+    <footer id="footer">
+        <ul>
+            <li>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVkpQfJlNGfWZhwflCtlkSbmtDppmKNmkhWwDRRZrqFsKQRPVdtzRSsRFDGLhMGNPbqKst"">
+                    <img src="IMAGES/ikona_email.png" class="icon icon_email" alt="email">
+                    jarofi818@wigym.cz
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Fiilipes">
+                    <img src="IMAGES/ikona_github.png" class="icon" alt="github">
+                    Github
+                </a>
+            </li>
+            <li>
+                    <img src="IMAGES/ikona_telefon.png" class="icon" alt="telefon">
+                    +420 123 456 789
+            </li>
+        </ul>
+    </footer>
+    <script src="JS/main.js"></script>
+</body>
+</html>

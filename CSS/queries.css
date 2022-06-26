@@ -1,0 +1,6 @@
+@media only screen and (max-width:1070px){
+    header a {margin: 20px;}
+}
+@media only screen and (max-width:915px){
+    header a {margin: 20px 10px;}
+}
