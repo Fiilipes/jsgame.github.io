@@ -45,7 +45,7 @@ document.querySelector("li#david3").addEventListener("click",select3);
 var characterInfo = getComputedStyle(document.getElementById("character"))
 var score = 0
 function countdown() {
-        var seconds = 10;
+        var seconds = 60;
         function tick() {
             var counter = document.getElementById("counter");
             seconds--;
