@@ -50,7 +50,7 @@ header ul li {
 header a {
     padding: 5px;
     border-bottom: 0px solid rgba(255, 255, 255, 0);
-    margin: 20px 40px;
+    margin: 20px 20px;
     transition: 1s;
 
 }
@@ -93,6 +93,7 @@ header a:hover {
     transform: translateX(-50%);
     margin-top: 30px;
     font-size: 18px;
+    z-index: 1000;
 }
 .scoreCounter ul li {
     display: inline-block;
@@ -106,7 +107,7 @@ header a:hover {
 .startButton:hover {
     border: 3px solid rgb(255, 242, 0);transition: 0.15s;transition-delay: 0.05s;padding: 25px;margin-top: 260px;
 }
-#object {visibility: hidden;width: 100px;position: absolute;}
+.object {visibility: hidden;width: 100px;position: absolute;}
 #character {visibility: hidden;width: 100px;margin-left:45.5%;margin-top: 250px;}
 
 .end {text-align: center;visibility: hidden;margin-top: 200px;}
@@ -122,3 +123,8 @@ footer {width: 100%;background-color: #333;color: #fff;margin-top: 35px;text-ali
 footer a {color: #fff;transition: 0.4s;}
 footer a:hover {color: rgb(255, 242, 0);transition: 0.2s;}
 footer li {display: inline-block;margin: 0 80px;}
+
+#chooseyourdavid {text-align: center;}
+#chooseyourdavid h2 {font-size: 40px;margin-top: 25px;}
+.unselected{display: inline-block;margin: 80px;cursor: pointer;padding: 20px;background-color: #222;color: #fff;border-radius: 15px;}
+.selected {display: inline-block;margin: 80px;cursor: pointer;padding: 12px;background-color: #222;color: #fff;border-radius: 15px;border: 8px solid rgb(255, 242, 0);}
